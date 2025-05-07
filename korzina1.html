@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Корзина</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Корзина</h2>
+            <div>
+                <span>Выбрать все</span>
+                <span>Цена</span>
+            </div>
+        </div>
+
+        <!-- Товары -->
+        <div class="item">
+            <div>Картофель<br><small>1 кг</small></div>
+            <div>60P<br><small>180P</small></div>
+            <div>3</div>
+        </div>
+        
+        <div class="item">
+            <div>Картофель<br><small>1 кг</small></div>
+            <div>60P<br><small>60P</small></div>
+            <div>1</div>
+        </div>
+        
+        <div class="item">
+            <div>Картофель<br><small>1 кг</small></div>
+            <div>60P<br><small>60P</small></div>
+            <div>1</div>
+        </div>
+
+        <!-- Итого -->
+        <div class="total-section">
+            <div>Итого: <br>
+                <small>Доставка за 10-20 минут</small>
+            </div>
+            <div style="margin-top: 15px;">
+                <div style="display: flex; justify-content: space-between;">
+                    <span>3 товара</span>
+                    <span>300P</span>
+                </div>
+                <div style="display: flex; justify-content: space-between;">
+                    <span>Скидка</span>
+                    <span>120P</span>
+                </div>
+                <div style="display: flex; justify-content: space-between; font-weight: bold;">
+                    <span>К оплате</span>
+                    <span>420P</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Форма -->
+        <div class="input-group">
+            <label>Способ оплаты</label>
+            <input type="text">
+        </div>
+
+        <div class="input-group">
+            <label>Адрес доставки</label>
+            <input type="text" placeholder="улица">
+            <input type="text" placeholder="дом подъезд">
+            <input type="text" placeholder="этаж кабеля">
+        </div>
+
+        <div class="input-group">
+            <label>Комментарий к заказу</label>
+            <textarea rows="3"></textarea>
+        </div>
+
+        <div class="input-group">
+            <label>Промокод:</label>
+            <input type="text" placeholder="Промокод">
+        </div>
+
+        <button>Оформить заказ</button>
+    </div>
+</body>
+</html>

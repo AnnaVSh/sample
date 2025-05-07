@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    font-family: IBM Plex Mono;
+    box-sizing: border-box;
+}
+
+.container-big {
+    width: 1720px;
+    margin: 60px auto;
+}
+
+header .logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header .logo .fa-cart-shopping {
+    font-size: 85px;
+}
+
+header .logo a {
+    font-size: 32px;
+    color: #333;
+}
+
+header .logo a span,
+.fa-cart-shopping {
+    color: #40AA54;
+}
+.fa-heart{
+    color: #FF7B6A;
+}
+
+header .links, 
+header .profile{
+    display: flex;
+    gap: 56px;
+}
+
+header .links a {
+    font-size: 24px;
+    color: #333;
+    transition: .3s ease-in-out;
+}
+
+header .links a:hover {
+    color: #40AA54;
+}
+header .profile .circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+header .profile .circle.like{
+    background: #FFF0EE;
+}
+header .profile .circle.cart{
+    background: #ECF7EE;
+}
+header .profile .circle.photo{
+    background: url(../images/Screenshot_1.png);
+    background-size: cover;
+    background-position-x: -25px;
+}
+header .profile .circle .fa{
+    font-size: 32px;
+}
+
+header .profile .avatar{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+header .profile .avatar a{
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    display: flex;
+    gap: 14px;
+}
+
+header .container-big{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

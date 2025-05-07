@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    font-family: "Nunito sans", Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.container-big{
+    width: 1720px;
+    margin: 60px auto;
+}
+header .logo .fa-cart-shopping{
+    font-size: 85px;
+   }
+   header .logo a{
+    font-size: 32px;
+    color: #333;
+   }
+   header .logo a span,
+.fa-cart-shopping{
+    color: #40AA54;}
